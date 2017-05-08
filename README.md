@@ -8,7 +8,7 @@ By using a pull request everyone can also contribute to existing projects.
 If you want to contribute with a new project, please read the instructions below.
 
 ##Licenses
-All material on the NSO Developer organization on GitHub is under the [Apache 2.0 license](https://github.com/NSO-developer/NSO-developer/license). 
+All material on the NSO Developer organization on GitHub is under the [Apache 2.0 license](https://github.com/NSO-developer/NSO-developer/blob/master/LICENSE). 
 The license is used to ensure a balance between open contribution and allowing you to use the software as you like to.
 
 The license tells you what rights you have that are provided by the copyright holder. It is important that the contributor fully understands what rights they are
