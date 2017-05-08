@@ -22,7 +22,7 @@ Getting Started
 1.	Create an account on github.com
 1.	Create your own private repository on github.com
 1.	Make sure your project fulfills all the criteria listed below (under “Requirements on your project”).
-1.	Send an email to the NSO Developer librarians with a link to your repository (XXX@cisco.com).
+1.	Send an email to the NSO Developer librarians with a link to your repository (nso-developer@cisco.com).
 1.	You will be asked to add one of the NSO Developer librarians as a collaborator, that person will then MOVE YOUR REPOSITORY to the [NSO Developer GitHub](https://github.com/NSO-developer).
 [Read more about the implications here](https://help.github.com/enterprise/2.6/user/articles/about-repository-transfers/).
 
@@ -31,7 +31,7 @@ you will still have owner privileges, and as such you can decide to give others 
 
 Users of your repository can use Issues to report bugs and suggest new features, and Pull Requests to contribute code.
 
-When/if you do not have time to keep your project up to date (fix issues, accept pull requests etc) - please say so. Write a line in the README.md, as well as an email to XXX@cisco.com - we will try to help you find a new maintainer of the code, or retire it from the library if it appears abandoned for a long time.
+When/if you do not have time to keep your project up to date (fix issues, accept pull requests etc) - please say so. Write a line in the README.md, as well as an email to nso-developer@cisco.com - we will try to help you find a new maintainer of the code, or retire it from the library if it appears abandoned for a long time.
 
 ## Expectations
 When using packages from the library you can expect:
