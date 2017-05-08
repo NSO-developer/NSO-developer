@@ -1,4 +1,4 @@
-#The NSO Developer organization on GitHub
+# The NSO Developer organization on GitHub
 
 We have created a public organization on GitHub to ensure we have one common place to share code for all of us working with NSO. 
 
@@ -7,7 +7,7 @@ By using a pull request everyone can also contribute to existing projects.
 
 If you want to contribute with a new project, please read the instructions below.
 
-##Licenses
+## Licenses
 All material on the NSO Developer organization on GitHub is under the [Apache 2.0 license](https://github.com/NSO-developer/NSO-developer/blob/master/LICENSE). 
 The license is used to ensure a balance between open contribution and allowing you to use the software as you like to.
 
@@ -17,7 +17,7 @@ licensing and agrees to them. Sometimes the copyright holder isn't the contribut
 To ensure that the criteria in the license are met, there is a need for a Developer Certificate of Origin (DCO) sign-off on all contribution. 
 More information about that can be found below.
 
-##Contributing a Project on the NSO Developer GitHub
+## Contributing a Project on the NSO Developer GitHub
 Getting Started
 1.	Create an account on github.com
 1.	Create your own private repository on github.com
@@ -33,7 +33,7 @@ Users of your repository can use Issues to report bugs and suggest new features,
 
 When/if you do not have time to keep your project up to date (fix issues, accept pull requests etc) - please say so. Write a line in the README.md, as well as an email to XXX@cisco.com - we will try to help you find a new maintainer of the code, or retire it from the library if it appears abandoned for a long time.
 
-##Expectations
+## Expectations
 When using packages from the library you can expect:
 
 *	The code you find provided “as is” and when you use it you get to keep it. If it breaks you get to keep all the pieces.
@@ -46,10 +46,10 @@ When using packages from the library you can expect:
 *	Only contribute code for which you own the IPR
 *	Do not include explicit references to customers (be it customer names, network configuration / templates, or otherwise)
 
-##Requirements on your project
+## Requirements on your project
 Before your project can be accepted into the NSO Developer organization it needs to fulfill the following criteria.
 
-###Developer Certificate of Origin
+### Developer Certificate of Origin
 When sharing on GitHub you must ensure that your pull request includes a Developer Certification of Origin (DCO). 
 The DCO is an attestation attached to every contribution made by every developer. 
 
