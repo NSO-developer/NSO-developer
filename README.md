@@ -1,14 +1,14 @@
-# The NSO Developer organization on GitHub
+# The NSO Developer space on GitHub
 
-We have created a public organization on GitHub to ensure we have one common place to share code for all of us working with NSO. 
+We have created a public space on GitHub to ensure we have one common place to share code for all of us working with NSO. 
 
-Since the NSO Developer organization is a public GitHub everyone can fork and read the uploaded code.
+Since the NSO Developer space is a public GitHub everyone can fork and read the uploaded code.
 By using a pull request everyone can also contribute to existing projects. 
 
 If you want to contribute with a new project, please read the instructions below.
 
 ## Licenses
-All material on the NSO Developer organization on GitHub is under the [Apache 2.0 license](https://github.com/NSO-developer/NSO-developer/blob/master/LICENSE). 
+All material on the NSO Developer space on GitHub is under the [Apache 2.0 license](https://github.com/NSO-developer/NSO-developer/blob/master/LICENSE). 
 The license is used to ensure a balance between open contribution and allowing you to use the software as you like to.
 
 The license tells you what rights you have that are provided by the copyright holder. It is important that the contributor fully understands what rights they are
@@ -26,7 +26,7 @@ Getting Started
 1.	You will be asked to add one of the NSO Developer librarians as a collaborator, that person will then MOVE YOUR REPOSITORY to the [NSO Developer GitHub](https://github.com/NSO-developer).
 [Read more about the implications here](https://help.github.com/enterprise/2.6/user/articles/about-repository-transfers/).
 
-That’s it! When the move is done, your repository is now part of the NSO developer organization. Keep hacking on your project,
+That’s it! When the move is done, your repository is now part of the NSO developer space. Keep hacking on your project,
 you will still have owner privileges, and as such you can decide to give others write access for example.
 
 Users of your repository can use Issues to report bugs and suggest new features, and Pull Requests to contribute code.
@@ -47,7 +47,7 @@ When using packages from the library you can expect:
 *	Do not include explicit references to customers (be it customer names, network configuration / templates, or otherwise)
 
 ## Requirements on your project
-Before your project can be accepted into the NSO Developer organization it needs to fulfill the following criteria.
+Before your project can be accepted into the NSO Developer space it needs to fulfill the following criteria.
 
 ### Developer Certificate of Origin
 When sharing on GitHub you must ensure that your pull request includes a Developer Certification of Origin (DCO). 
@@ -103,14 +103,14 @@ Add a README.md. Your README must include:
 *	If your project contains any copies of code derived from open source you need to explicitly list which projects.
 
 ### It must be open
-The whole point of the NSO Developer Organization is to share code to the NSO ecosystem, as such we don’t want to make it “private”. However, that means that anyone can access the NSO Developer repositories, which requires us to approve the open access and ensure that no private information is included.
+The whole point of the NSO Developer space is to share code to the NSO ecosystem, as such we don’t want to make it “private”. However, that means that anyone can access the NSO Developer repositories, which requires us to approve the open access and ensure that no private information is included.
 
 The information in the README.md file will be displayed on the Cisco NSO DevNet site.
 
 ### Recommendations
 *	Add test cases, and instructions on how to run them. Why not use Lux to automate your tests? NSO uses it!
 
-*	Packaging make one repository for every stand-alone project. But don’t make a lot of small repositories of things that actually belong together, it just makes the organization cluttered and it will be harder to find your project.
+*	Packaging make one repository for every stand-alone project. But don’t make a lot of small repositories of things that actually belong together, it just makes the space cluttered and it will be harder to find your project.
 
 *	Naming convention for YANG modules. For a demo or example the module name and namespace does not matter that much (you can use http://example.com/... as namespace). But if your project is a re-usable piece, then consider using the URL of the project the namespace (as in: https://github.com/NSO-developer/PACKAGE-NAME/MODULE-NAME)
 
