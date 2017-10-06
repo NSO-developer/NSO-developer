@@ -1,14 +1,14 @@
 # The NSO Developer space on GitHub
 
-We have created a public space on GitHub to ensure we have one common place to share code for all of us working with NSO. 
+We have created a public organization on GitHub to ensure we have one common place to share code for all of us working with NSO. 
 
-Since the NSO Developer space is a public GitHub everyone can fork and read the uploaded code.
+Since the NSO Developer is a public GitHub everyone can fork and read the uploaded code.
 By using a pull request everyone can also contribute to existing projects. 
 
 If you want to contribute with a new project, please read the instructions below.
 
 ## Licenses
-All material on the NSO Developer space on GitHub is under the [Apache 2.0 license](https://github.com/NSO-developer/NSO-developer/blob/master/LICENSE). 
+All material on the NSO Developer sapce on GitHub is under the [Apache 2.0 license](https://github.com/NSO-developer/NSO-developer/blob/master/LICENSE). 
 The license is used to ensure a balance between open contribution and allowing you to use the software as you like to.
 
 The license tells you what rights you have that are provided by the copyright holder. It is important that the contributor fully understands what rights they are
@@ -23,10 +23,11 @@ Getting Started
 1.	Create your own private repository on github.com
 1.	Make sure your project fulfills all the criteria listed below (under “Requirements on your project”).
 1.	Send an email to the NSO Developer librarians with a link to your repository (nso-developer@cisco.com).
-1.	You will be asked to add one of the NSO Developer librarians as a collaborator, that person will then MOVE YOUR REPOSITORY to the [NSO Developer GitHub](https://github.com/NSO-developer).
+1.	You will be added as an outside collaborator to a new repository on the [NSO Developer GitHub](https://github.com/NSO-developer) and will be asked to contribute your code there.
+
 [Read more about the implications here](https://help.github.com/enterprise/2.6/user/articles/about-repository-transfers/).
 
-That’s it! When the move is done, your repository is now part of the NSO developer space. Keep hacking on your project,
+That’s it! When the move is done, your repository is now part of the NSO developer. Keep hacking on your project,
 you will still have owner privileges, and as such you can decide to give others write access for example.
 
 Users of your repository can use Issues to report bugs and suggest new features, and Pull Requests to contribute code.
@@ -47,13 +48,40 @@ When using packages from the library you can expect:
 *	Do not include explicit references to customers (be it customer names, network configuration / templates, or otherwise)
 
 ## Requirements on your project
-Before your project can be accepted into the NSO Developer space it needs to fulfill the following criteria.
+Before your project can be accepted as a repository of the NSO Developer it needs to fulfill the following criteria.
 
 ### Developer Certificate of Origin
-When sharing on GitHub you must ensure that your pull request includes a Developer Certification of Origin (DCO). 
-The DCO is an attestation attached to every contribution made by every developer. 
+#### Signed-off
+When using the NSO-develop-hub every commit needs to be signed-off (git commit –s) by the contributor that he or she has the right to submit it.
+The “-s” flag adds a line with the text 'Signed-off-by' followed by the same email address as the contributor. E.g. 
 
 ```
+My commit message
+
+Signed-off-by Aron Aronsson <aron.aronsson@example.com>
+```
+
+It is important that the git config user.name and user.email is configured correctly.
+
+[user]
+        name = Aron Aronsson
+        email = aron.aronsson@example.com
+
+#### What is signed-off
+In short you are signing off that you have the right to submit the code to the developer hub, and that you understand that it will be public. The full text can found at [developercertificate.org](www.developercertificate.org) and also here:
+```
+Developer Certificate of Origin
+Version 1.1
+
+Copyright (C) 2004, 2006 The Linux Foundation and its contributors.
+1 Letterman Drive
+Suite D4700
+San Francisco, CA, 94129
+
+Everyone is permitted to copy and distribute verbatim copies of this
+license document, but changing it is not allowed.
+
+
 Developer's Certificate of Origin 1.1
 
 By making a contribution to this project, I certify that:
@@ -62,30 +90,28 @@ By making a contribution to this project, I certify that:
     have the right to submit it under the open source license
     indicated in the file; or
 
-(b) The contribution is based upon previous work that, to the
-    best of my knowledge, is covered under an appropriate open
-    source license and I have the right under that license to   
-    submit that work with modifications, whether created in whole
-    or in part by me, under the same open source license (unless
-    I am permitted to submit under a different license), as
-    Indicated in the file; or
+(b) The contribution is based upon previous work that, to the best
+    of my knowledge, is covered under an appropriate open source
+    license and I have the right under that license to submit that
+    work with modifications, whether created in whole or in part
+    by me, under the same open source license (unless I am
+    permitted to submit under a different license), as indicated
+    in the file; or
 
 (c) The contribution was provided directly to me by some other
     person who certified (a), (b) or (c) and I have not modified
     it.
 
 (d) I understand and agree that this project and the contribution
-    are public and that a record of the contribution (including
-    all personal information I submit with it, including my
-    sign-off) is maintained indefinitely and may be redistributed
-    consistent with this project or the open source license(s)
-    involved.
+    are public and that a record of the contribution (including all
+    personal information I submit with it, including my sign-off) is
+    maintained indefinitely and may be redistributed consistent with
+    this project or the open source license(s) involved.
 ```
+#### Signing pull requests
+When creating a pull request every commit in that pull request will be checked for DCO, if you haven’t signed all commits the checks will fail and the pull request will be denied.
 
-In the commit message the contributor simply adds a Signed-off-by statement and thereby agrees to the DCO: 
-```
-Signed-off-by: N.N. <email@mail.com>
-```
+Therefore it is a good idea to sign all commits before doing the pull request.
 
 ### It should be NSO related
 Sure, it could be a cool YANG plugin too - but it should at least be relevant to NSO development.
@@ -112,6 +138,10 @@ The information in the README.md file will be displayed on the Cisco NSO DevNet 
 
 *	Packaging make one repository for every stand-alone project. But don’t make a lot of small repositories of things that actually belong together, it just makes the space cluttered and it will be harder to find your project.
 
-*	Naming convention for YANG modules. For a demo or example the module name and namespace does not matter that much (you can use http://example.com/... as namespace). But if your project is a re-usable piece, then consider using the URL of the project the namespace (as in: https://github.com/NSO-developer/PACKAGE-NAME/MODULE-NAME)
+*	Naming convention for YANG modules. For a demo or example the module name and namespace does not matter that much (you can use example.com/... as namespace). But if your project is a re-usable piece, then consider using the URL of the project the namespace (as in: github.com/NSO-developer/PACKAGE-NAME/MODULE-NAME)
 
 *	If you actually make some kind of releases, consider tagging the releases and use a “CHANGES” file / “Release Notes” document
+
+## Link to GitHub
+
+[NSO-Developer](https://github.com/nso-developer) 
