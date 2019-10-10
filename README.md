@@ -128,6 +128,9 @@ Add a README.md. Your README must include:
 *	Instructions on how to build it
 *	If your project contains any copies of code derived from open source you need to explicitly list which projects.
 
+### LICENSE
+Add a LICENSE file so that the license is kept with the repository, we suggest using Apache 2.0 license. This makes it clear for anyone how the code can be used, modified and distributed.
+
 ### It must be open
 The whole point of the NSO Developer space is to share code to the NSO ecosystem, as such we don’t want to make it “private”. However, that means that anyone can access the NSO Developer repositories, which requires us to approve the open access and ensure that no private information is included.
 
