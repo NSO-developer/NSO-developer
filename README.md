@@ -17,20 +17,18 @@ it possible for users to access code where most convenient for the user.
   administrator to have it moved to GitLab and mirrored back to GitHub. Moving
   to GitLab enables CI functionality.
 
-GitLab and GitHub have virtually the same set of basic functions like issue
-tracking, pull/merge requests for code review. GitLab offers the possibility to
-use the integrated CI system, thus providing a standardized CI configuration
-format, yet setup a customized CI runner (the actual machine running CI jobs).
-This is the primary reason to why GitLab is the preferred location - having a
-specialized CI runner is allows for running NSO, netsims and virtual routers.
-
-NSO-Developer originally started solely on GitHub. GitLab however has become the
-primary and encouraged place to use for development as the CI functionality
-offered by GitLab is well suited for testing NSO. Specifically, the CI
-functionality of GitLab together with the [NSO in Docker
-project](https://gitlab.com/nso-developer/nso-docker/) allows anyone to very
-easily achieve a development environment for NSO packages or entire NSO systems
-that are both easily tested locally and in CI.
+GitLab and GitHub have virtually the same set of basic functions, like issue
+tracking or pull/merge requests for code review. NSO-Developer originally
+started on GitHub, which is why the majority of repositories currently have
+their home on GitHub. However, GitLab offers the possibility to use the
+integrated CI system, thus providing a standardized CI configuration format, yet
+setup a custom CI runner (the actual machine running CI jobs). A clear advantage
+that in turn makes it possible to run NSO, netsims as well as virtual routers in
+CI. The CI system of GitLab together with how it is leveraged in the [NSO in
+Docker project](https://gitlab.com/nso-developer/nso-docker/) is why GitLab is
+now the preferred location. We encourage anyone starting a new repository to
+create it on GitLab. We still keep it available on GitHub by mirroring the
+project, making it easy to consume for users.
 
 ## Licenses
 All material on the NSO-Developer space is under the [Apache 2.0
@@ -65,8 +63,8 @@ That’s it! When the move is done, your repository is now part of the NSO
 developer space. Keep hacking on your project, you will still have owner
 privileges, and as such you can decide to give others write access for example.
 
-Users of your repository can use Issues to report bugs and suggest new features,
-and Merge Requests to contribute code.
+Users of your repository can use **Issues** to report bugs and suggest new features,
+and **Merge Requests** to contribute code.
 
 When/if you do not have time to keep your project up to date (fix issues, accept
 merge/pull requests etc) - please say so. Write a line in the README, as well as
@@ -179,6 +177,13 @@ YxT than “YANG Extension Tool”. Don’t pick “generic-tool”, “misc-tem
 If your contribution is more of a demo or example, then a more descriptive name
 could be in order, perhaps even pre- or postfixed with demo or example. For
 example: l3-vpn-demo or example-stacked-service.
+
+### Repository Description
+Be sure to set the description of the repository. While the name might be
+catchy, do try to use the description to describe what the package does.
+
+Is it just an example? Or a reusable library ready for use? Is it an NSO package
+or a peripheral utility? What does it do? How does it help someone else?
 
 ### README.md
 Add a README.md. Your README must include:
