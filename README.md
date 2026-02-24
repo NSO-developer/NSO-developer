@@ -1,76 +1,81 @@
-# The NSO Developer space on GitLab & GitHub
+# The NSO Developer Space on GitHub (Primary) & GitLab (Legacy Mirror)
 
-NSO-Developer is a public space available on GitLab and GitHub where all of us
-working with NSO can publish and share code. Anyone is free to read and use the
-code or fork a project and continue development. Contributions are made simple
-through Merge/Pull requests and make it possible for anyone to contribute back.
+**NSO-Developer** is a public community space where anyone working with NSO can share, explore, and collaborate on projects. All repositories are open for reading, cloning, and forking, and contributions are welcomed through Pull Requests.
 
-## GitLab vs GitHub
-The NSO-Developer space is available both on GitLab and GitHub with the goal to
-mirror all projects between the two. Having repos available in both places makes
-it possible for users to access code where most convenient for the user.
+We aim to make collaboration simple, transparent, and accessible for the entire NSO ecosystem.
 
-- If you want to clone a repository, you can grab it from GitLab or GitHub
-- If you want to start a new repository you are encouraged to create it on
-  GitLab. The repo can be continuously mirrored from GitLab to GitHub.
-- If you are the owner of an existing repository on GitHub, talk to an
-  administrator to have it moved to GitLab and mirrored back to GitHub. Moving
-  to GitLab enables CI functionality.
+## Repository Hosting Policy
 
-GitLab and GitHub have virtually the same set of basic functions, like issue
-tracking or pull/merge requests for code review. NSO-Developer originally
-started on GitHub, which is why the majority of repositories currently have
-their home on GitHub. However, GitLab offers the possibility to use the
-integrated CI system, thus providing a standardized CI configuration format, yet
-setup a custom CI runner (the actual machine running CI jobs). A clear advantage
-that in turn makes it possible to run NSO, netsims as well as virtual routers in
-CI. The CI system of GitLab together with how it is leveraged in the [NSO in
-Docker project](https://gitlab.com/nso-developer/nso-docker/) is why GitLab is
-now the preferred location. We encourage anyone starting a new repository to
-create it on GitLab. We still keep it available on GitHub by mirroring the
-project, making it easy to consume for users.
+The NSO-Developer organization is available on both GitHub and GitLab. However:
 
-## Licenses
-All material on the NSO-Developer space is under the [Apache 2.0
-license](https://github.com/NSO-developer/NSO-developer/blob/master/LICENSE).
-The license is used to ensure a balance between open contribution and allowing
-anyone to freely use the software without hindrance.
+**GitHub is now the primary and only location for creating new NSO-Developer repositories.**  
+GitLab is maintained only as a legacy mirror for existing projects and is **no longer used for new project creation.**
 
-It is important that you, as a contributor, understand the ramifications of the
-license and agree to it. Sometimes the copyright holder isn't the contributor,
-such as when the contributor is doing work on behalf of a company.
+## License
 
-To ensure that the criteria in the license are met, there is a need for a
-Developer Certificate of Origin (DCO) sign-off on all contributions.
+All material in the NSO-Developer space is released under the **Apache 2.0 License**:  
+https://github.com/NSO-developer/NSO-developer/blob/master/LICENSE
 
-More information about that can be found below.
+This license ensures:
 
-## Contributing a Project on the NSO Developer
-Getting Started
-1. Create an account on gitlab.com
-1. Create your own private repository on gitlab.com
-1. Make sure your project fulfills all the criteria listed below (under
-   “Requirements on your project”).
-1. Send an email to the NSO Developer librarians (nso-developer@cisco.com) with
-   a link to your repository.
-1. You will be added as an outside collaborator to a new repository on the [NSO
-   Developer GitHub](https://github.com/NSO-developer) and will be asked to
-   contribute your code there.
+- open collaboration
+- freedom to use the software
+- protection for contributors
 
-[Read more about the implications here](https://help.github.com/enterprise/2.6/user/articles/about-repository-transfers/).
+Contributors must understand and agree to the license terms. In cases where work is done on behalf of an employer, the employer may hold copyright.
 
-That’s it! When the move is done, your repository is now part of the NSO
-developer space. Keep hacking on your project, you will still have owner
-privileges, and as such you can decide to give others write access for example.
+To comply with licensing requirements, **all contributions must include a Developer Certificate of Origin (DCO) sign-off.**
 
-Users of your repository can use **Issues** to report bugs and suggest new features,
-and **Merge Requests** to contribute code.
+## Contributing a Project to NSO-Developer
 
-When/if you do not have time to keep your project up to date (fix issues, accept
-merge/pull requests etc) - please say so. Write a line in the README, as well as
-an email to nso-developer@cisco.com - we will try to help you find a new
-maintainer of the code, or retire it from the library if it appears abandoned
-for a long time.
+### Getting Started
+
+1. Create a GitHub account if you don’t already have one.
+2. Prepare your project locally or in your own GitHub repository.
+3. Ensure your project satisfies the requirements listed below.
+4. Email **nso-developer@cisco.com** with:
+   - repository link
+   - project description
+   - maintainer contact information
+5. The NSO-Developer librarians will review your submission.
+6. If accepted, your project will be transferred or added to the  
+   https://github.com/NSO-developer organization.
+
+After onboarding:
+
+- You retain maintainer privileges.
+- You can grant collaborators access.
+- Community members can submit Pull Requests and Issues.
+
+## Maintenance Expectations
+
+If you are no longer able to maintain your project:
+
+1. Add a note in the repository README indicating maintenance status.
+2. Email **nso-developer@cisco.com**
+
+The librarians may:
+
+- help find a new maintainer, or
+- archive the repository if it appears inactive long-term.
+
+## Project Requirements
+
+Projects submitted to NSO-Developer should:
+
+- be relevant to NSO users or developers
+- include documentation
+- build and run as described
+- follow licensing rules
+- accept community collaboration
+
+Projects that do not meet these expectations may be declined or later archived.
+
+## Community Philosophy
+
+NSO-Developer exists to foster collaboration, learning, and sharing across the NSO community. Whether you’re publishing a new tool, improving an existing project, or contributing fixes, your participation helps everyone.
+
+We’re glad you’re here, and we’re excited to see what you build.
 
 ## Expectations
 When using packages from the library you can expect:
